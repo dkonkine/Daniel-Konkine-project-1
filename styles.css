@@ -16,3 +16,578 @@ body {
     font-size: 1.6rem;
 }
 
+.wrapper {
+    max-width: 1300px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+button {
+    background-color: white;
+    border: 2px solid #e75605;
+    padding: 15px 15px;
+    color: #1f2022;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* header */
+
+span {
+    color: #e75605;
+}
+
+.header-socials {
+    color: #e75605;
+    float: right;
+    width: 20%;
+    font-size: 30px;
+}
+
+h1,
+h2 {
+    color: #e75605;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 42px;
+}
+
+h1.wrapper {
+    font-weight: 400;
+    font-size: 146.6px;
+    float: right;
+    width: 60%;
+}
+
+.header-img {
+    float: left;
+    width: 35%;
+}
+
+.header-title-img {
+    width: 100%;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+nav {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 29px;
+}
+
+
+.header-nav li {
+    display: inline-block;
+    padding: 1em;
+}
+
+.header-nav ul {
+    text-align: center;
+}
+
+
+/* MAIN */
+
+/* top main */
+main p {
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+
+
+.new-menu-content {
+    float: left;
+    width: 40%;
+    margin-top: 150px;
+}
+
+.new-menu-img {
+    float: right;
+    width: 60%;
+    margin-right: -130px;
+}
+
+/* middle main */
+
+.full-experience {
+    margin-bottom: 150px;
+}
+
+.full-experience-content {
+    float: right;
+    width: 40%;
+    margin-top: 150px;
+}
+
+.full-experience-img {
+    float: left;
+    width: 60%;
+    margin-left: -130px;
+}
+
+/* bottom main */
+
+.desserts {
+    margin-bottom: 150px;
+}
+
+.desserts-img {
+    width: 20%;
+    float: left;
+}
+
+.desserts-text {
+    float: right;
+    width: 76%;
+}
+
+/* LOCATION AND MENU THING */
+
+.location-menu {
+    background-color: #e75605;
+}
+
+.location-menu p {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.fas {
+    font-size: 60px;
+    color: white;
+}
+
+.location-section {
+    width: calc((100% / 3) - 20px);
+}
+
+.location,
+.menu {
+    float: left;
+    margin-right: 60px;
+}
+
+.location,
+.menu,
+.reach-out {
+    padding-bottom: 150px;
+    padding-top: 150px;
+}
+
+.fa-location-arrow,
+.fa-phone {
+    padding-left: 60px;
+}
+
+.fa-utensils {
+    padding-left: 25px;
+}
+
+/* ASIDE/THE GRAM SECTION */
+
+.the-gram {
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.the-gram h2 {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.chicken,
+.vegetable-platter {
+    float: left;
+}
+
+/* FOOTER */
+
+.footer-styles {
+    background-color: lightgrey;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-nav li {
+    display: inline-block;
+    padding: 1em;
+}
+
+.footer-nav ul {
+    text-align: center;
+}
+
+.contact-section {
+    float: left;
+}
+
+form {
+    float: right;
+}
+
+input[type=email] {
+    width: 60%;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+label {
+    font-family: 'Catamaran', sans-serif;
+}
+
+footer p {
+    text-align: center;
+    background-color: #1f2022;
+    color: white;
+    font-family: 'Catamaran', sans-serif;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 375px) {
+    .header-nav {
+        display: none;
+    }
+
+    h1.wrapper {
+        float: none;
+        font-size: 50px;
+        margin-top: 30px;
+    }
+
+    .header-img {
+        width: 70%;
+    }
+
+    .header-socials {
+        display: none;
+    }
+
+    .new-menu-img {
+        float: none;
+        width: 100%;
+    }
+
+    .new-menu-content {
+        float: none;
+        width: 100%;
+        margin-top: 50px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    section p {
+        text-align: center;
+    }
+
+    .full-experience-img {
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+
+    .full-experience-content {
+        float: none;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .desserts-img {
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+
+    .desserts-text {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .location-section p {
+        text-align: center;
+    }
+
+    .location,
+    .menu,
+    .reach-out {
+        float: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .fa-location-arrow {
+        padding-top: 70px;
+    }
+
+    .reach-out {
+        padding-bottom: 70px;
+    }
+
+    .chicken-wings {
+        display: none;
+    }
+
+    .chicken {
+        float: left;
+        width: 45%;
+    }
+
+    .vegetable-platter {
+        float: right;
+        width: 45%;
+    }
+
+    .the-gram {
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+
+    .footer-nav {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .contact-section {
+        text-align: center;
+        float: none;
+    }
+
+    form {
+        float: none;
+        text-align: center;
+    }
+
+    input[type=email] {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    form button {
+        padding: 10px 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    h1.wrapper {
+        font-size: 50px;
+        float: none;
+    }
+
+    .new-menu-img {
+        float: none;
+        width: 100%;
+    }
+
+    .new-menu-content {
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+
+    .full-experience-img {
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+
+    .full-experience-content {
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .desserts-img {
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .desserts-text {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .location,
+    .menu,
+    .reach-out {
+        float: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .fas {
+        margin: 0;
+        padding: 0;
+    }
+
+    .reach-out {
+        padding-bottom: 50px;
+    }
+
+    .fa-location-arrow {
+        padding-top: 50px;
+    }
+
+    .chicken,
+    .vegetable-platter,
+    .chicken-wings {
+        float: none;
+        display: inline-block;
+    }
+
+    .gallery {
+        text-align: center;
+    }
+
+    .contact-section {
+        float: none;
+    }
+
+    form {
+        float: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    .new-menu-content {
+        margin-top: 0;
+    }
+
+    .new-menu {
+        margin-bottom: 50px;
+    }
+
+    .full-experience-content {
+        margin-top: 0;
+    }
+
+    .desserts-text {
+        width: 50%;
+    }
+
+    .desserts-img {
+        width: 50%;
+    }
+
+    .location,
+    .menu,
+    .reach-out {
+        float: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .fas {
+        padding: 0;
+        margin: 0;
+    }
+
+    .fa-location-arrow {
+        padding-top: 50px;
+    }
+
+    .reach-out {
+        padding-bottom: 50px;
+    }
+
+    .chicken,
+    .vegetable-platter,
+    .chicken-wings {
+        float: left;
+        width: calc(100% / 3);
+    }
+
+    .gallery {
+        text-align: center;
+    }
+
+    .gallery img {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1333px) {
+    .chicken,
+    .vegetable-platter,
+    .chicken-wings {
+        float: left;
+        width: calc(100% / 3);
+    }
+
+    .gallery img {
+        width: 85%;
+    }
+
+    .location,
+    .menu,
+    .reach-out {
+        float: none;
+        padding: 0;
+    }
+
+    .fas {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

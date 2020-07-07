@@ -13,59 +13,68 @@
 <body>
     
     <!-- header nav -->
-    <nav class="header-nav">
-        <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">BLOG</a></li>
-            <li><a href="#">CONTACT</a></li>
-        </ul>
-    </nav>
-
-    <!-- header content -->
     <header>
-        <h1>Hangry Tummy</h1>
+        <nav class="header-nav wrapper">
+            <ul>
+                <li><a href="#"><span>HOME</span></a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>      
+            <div class="header-title-img clearfix">
+                <h1 class="wrapper">Hangry Tummy</h1>
+                <img class="header-img" src="./assets/header-burger.png" alt="">
+                <!-- header content -->
+                <!-- font awesome socials -->
+                <div class="header-socials wrapper">
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-snapchat-ghost"></i>
+                    <i class="fab fa-twitter"></i>
+                </div>
+            </div>
     </header>
-    <!-- font awesome socials -->
-    <div class="header-socials">
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-facebook-f"></i>
-        <i class="fab fa-snapchat-ghost"></i>
-        <i class="fab fa-twitter"></i>
-    </div>
 
     <!-- main content -->
     <main>
 
         <!-- top main -->
-        <section class="new-menu">
-            <div class="wrapper">
+        <section class="clearfix new-menu wrapper">
+            <div class="new-menu-img">
+                <img class="right-photo" src="./assets/right-photo.jpg" alt="A hamburger meal with a side of fries">
+            </div>
+            <div class="new-menu-content">
                 <h2>NEW TO OUR MENU</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, voluptatem? Labore, recusandae? Reprehenderit, similique? Nobis facilis expedita, eligendi minus ipsum dignissimos vitae asperiores similique, atque nisi quidem voluptatem cum unde.</p>
                 <button class="read-more-button">READ MORE</button>
             </div>
-            <img class="right-photo" src="./assets/right-photo.jpg" alt="A hamburger meal with a side of fries">
+            
         </section>
 
         <!-- middle main -->
-        <section class="full-experience">
-            <div class="wrapper">
+        <section class="clearfix wrapper full-experience">
+            <div class="full-experience-img">
+                <img class="left-photo" src="./assets/left-photo.jpg" alt="A meal showing french onion soup, some sort of entree and a plate of fries">
+            </div>
+            <div class="full-experience-content">
                 <h2>FULL EXPERIENCE</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut pariatur, itaque et repudiandae doloremque quaerat ipsa? Molestias eum est maiores placeat odio? Recusandae inventore officia repudiandae nostrum reiciendis earum vero.</p>
                 <button class="read-more-button">READ MORE</button>
             </div>
-            <img class="left-photo" src="./assets/left-photo.jpg" alt="A meal showing french onion soup, some sort of entree and a plate of fries">
+            
         </section>
 
         <!-- bottom main -->
         <section class="desserts">
-            <div class="wrapper">
+            <div class="wrapper clearfix">
                 <div class="desserts-img">
                     <img src="./assets/square-imege.jpg" alt="dessert dish">
                 </div>
                 <div class="desserts-text">
                     <h2>DESSERTS</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur illo perspiciatis unde recusandae odio repudiandae earum tempore? Fuga quas tenetur, cumque cupiditate alias officiis maiores architecto? Eaque iusto rem vel.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aliquid aliquam necessitatibus mollitia distinctio provident, ipsam ab ad et nobis perspiciatis debitis vitae excepturi saepe repudiandae delectus labore nihil? Omnis.Pariatur magnam maiores ipsam beatae rerum sequi totam quas, facilis ipsum perferendis dolorum dicta qui eos, atque at ipsa nihil necessitatibus exercitationem iusto eligendi nesciunt alias nulla aut! Similique, sunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sed quidem rerum nemo sunt aut natus tempora magnam animi labore voluptate explicabo, optio ducimus tenetur eum dolore! Pariatur, atque dolor.
+                    </p>
                     <button class="read-more-button">READ MORE</button>
                 </div>
             </div>
@@ -73,22 +82,24 @@
 
         <!-- location, menu, reach out section -->
         <section class="location-menu">
-            <div class="location">
-                <i class="fas fa-location-arrow"></i>
-                <p>LOCATIONS</p>
-            </div>
-            <div class="menu">
-                <i class="fas fa-utensils"></i>
-                <p>MENU</p>
-            </div>
-            <div class="reach-out">
-                <i class="fas fa-phone"></i>
-                <p>REACH OUT</p>
+            <div class="location-section wrapper clearfix">
+                <div class="location">
+                    <i class="fas fa-location-arrow"></i>
+                    <p>LOCATIONS</p>
+                </div>
+                <div class="menu">
+                    <i class="fas fa-utensils"></i>
+                    <p>MENU</p>
+                </div>
+                    <div class="reach-out">
+                        <i class="fas fa-phone"></i>
+                        <p>REACH OUT</p>
+                    </div>
             </div>
         </section>
     </main>
 
-    <aside class="the-gram wrapper">
+    <aside class="the-gram wrapper clearfix">
         <h2>THE GRAM</h2>
         <div class="gallery">
             <div class="chicken">
@@ -104,26 +115,41 @@
     </aside>
 
     <!-- footer -->
-    <footer class="wrapper">
-        <nav class="footer-nav">
-            <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">BLOG</a></li>
-                <li><a href="#">CONTACT</a></li>
-            </ul>
-        </nav>
+    <footer>
+        <div class="footer-styles">
 
-        <div class="contact-section">
-            <h2>CONTACT</h2>
-            <address>
-                info@email.com | 123-456-7890 <br>
-                123 some road, Toronto, ON <br>
-                A5A 5A5, Canada <br>
-            </address>
+            <div class="wrapper">
+                <nav class="footer-nav">
+                    <ul>
+                        <li><a href="#"><span>HOME</span></a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">BLOG</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="clearfix">
+                    <div class="contact-section">
+                        <h2>CONTACT</h2>
+                        <address>
+                            info@email.com | 123-456-7890 <br>
+                            123 some road, Toronto, ON <br>
+                            A5A 5A5, Canada <br>
+                        </address>
+                    </div>
+                    <form action="myForm" class="form">
+                        <h2>STAY UPDATED</h2>
+                        <div class="email">
+                            <label for="userEmail">Subscribe to our newsletter to stay updated.</label>
+                            <input type="email" id="userEmail" name="userEmail" placeholder="email address">
+                            <button type="submit">SUBSCRIBE</button>
+                        </div>
+                    </form>
+                </div>            
+            </div>
         </div>
-    </footer>
-
+        <p>Copyright &copy;2019 HackerYou</p>
+    </footer> 
 </body>
 
 
