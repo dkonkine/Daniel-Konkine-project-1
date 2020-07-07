@@ -38,6 +38,16 @@ button {
     font-size: 20px;
 }
 
+a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #1f2022;
+}
+
+.created-at-juno {
+    color: white;
+}
+
 /* header */
 
 span {
